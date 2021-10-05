@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="316dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="639dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/custom_button"
+        android:gravity="top|left"
+        android:hint="Enter the message."
+        android:inputType="textLongMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.0"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="209dp"
+        android:onClick="sendmessage"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="38dp"
+        android:text="File Upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="120dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Cancel Upcoming Class"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="104dp"
+        android:text="Monday 10:30am"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
