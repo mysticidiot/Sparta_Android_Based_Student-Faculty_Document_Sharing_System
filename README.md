@@ -7,7 +7,7 @@ Faculty may also cancel scheduled classes and the change will be reflected in th
 
 Screenshots -
 
-![Screenshot](ss1.jpeg)
-![Screenshot](ss2.jpeg)
-![Screenshot](ss3.jpeg)
-![Screenshot](ss4.jpeg)
+![Screenshot](ss1.jpg)
+![Screenshot](ss2.jpg)
+![Screenshot](ss3.jpg)
+![Screenshot](ss4.jpg)
