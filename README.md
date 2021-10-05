@@ -8,6 +8,9 @@ Faculty may also cancel scheduled classes and the change will be reflected in th
 Screenshots -
 
 ![Screenshot](ss1.jpg)
+
 ![Screenshot](ss2.jpg)
+
 ![Screenshot](ss3.jpg)
+
 ![Screenshot](ss4.jpg)
